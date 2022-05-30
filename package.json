@@ -31,7 +31,6 @@
     "sort": "sort-package-json",
     "test": "mocha \"test/**/*.test.ts\" --exit",
     "upgrade": "ncu -u --packageFile package.json && run-s sort",
-    "preinstall": "npx only-allow pnpm",
     "prepublish": "run-s build"
   },
   "dependencies": {
